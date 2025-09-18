@@ -1,0 +1,45 @@
+# Network Traffic Analysis Toolkit - Python Requirements
+# Core network analysis libraries
+scapy>=2.4.5
+pyshark>=0.4.3
+netaddr>=0.8.0
+
+# Data processing and analysis
+pandas>=1.3.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Network scanning and reconnaissance
+python-nmap>=0.6.1
+requests>=2.25.0
+
+# Report generation and templating
+jinja2>=3.0.0
+markdown>=3.3.0
+pyyaml>=5.4.0
+
+# Command line interface and utilities
+click>=8.0.0
+colorama>=0.4.4
+tqdm>=4.62.0
+rich>=10.0.0
+
+# Security and cryptography
+cryptography>=3.4.0
+bcrypt>=3.2.0
+
+# Database and storage
+sqlite3-utils>=3.0.0
+
+# Optional advanced analysis tools
+# Uncomment if needed for specialized analysis
+# networkx>=2.6.0        # Network graph analysis
+# scikit-learn>=1.0.0    # Machine learning for anomaly detection
+# plotly>=5.0.0          # Interactive visualizations
+
+# Development and testing (optional)
+# pytest>=6.0.0
+# pytest-cov>=2.12.0
+# black>=21.0.0
+# flake8>=3.9.0
