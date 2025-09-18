@@ -1,0 +1,76 @@
+{
+  "analysis_metadata": {
+    "capture_start_time": "2024-09-18T10:00:00",
+    "capture_end_time": "2024-09-18T11:00:00",
+    "total_duration_seconds": 3600,
+    "pcap_file_size_mb": 847.3,
+    "analyzer_version": "2.1.0"
+  },
+  "packet_statistics": {
+    "total_packets": 2087420,
+    "total_bytes": 887654321,
+    "average_packet_size": 425.7,
+    "packets_per_second": 579.8
+  },
+  "protocol_distribution": {
+    "HTTP": {
+      "packets": 942000,
+      "percentage": 45.2,
+      "bytes": 401234567
+    },
+    "HTTPS": {
+      "packets": 663780,
+      "percentage": 31.8,
+      "bytes": 298765432
+    },
+    "DNS": {
+      "packets": 252210,
+      "percentage": 12.1,
+      "bytes": 45678901
+    },
+    "SSH": {
+      "packets": 98070,
+      "percentage": 4.7,
+      "bytes": 67890123
+    },
+    "FTP": {
+      "packets": 58380,
+      "percentage": 2.8,
+      "bytes": 23456789
+    },
+    "Other": {
+      "packets": 72980,
+      "percentage": 3.4,
+      "bytes": 50629509
+    }
+  },
+  "top_conversations": [
+    {
+      "endpoint_a": "192.168.1.45",
+      "endpoint_b": "203.0.113.10",
+      "packets": 285000,
+      "bytes": 125678901,
+      "duration_seconds": 3245
+    },
+    {
+      "endpoint_a": "192.168.1.67",
+      "endpoint_b": "8.8.8.8",
+      "packets": 156000,
+      "bytes": 89012345,
+      "duration_seconds": 3598
+    }
+  ],
+  "security_indicators": {
+    "suspicious_ips": [
+      "10.0.0.25",
+      "198.51.100.42"
+    ],
+    "malicious_domains": [
+      "malicious-site.evil.com",
+      "c2-server.badactor.net"
+    ],
+    "port_scan_attempts": 5,
+    "brute_force_attempts": 2,
+    "data_exfiltration_events": 1
+  }
+}
