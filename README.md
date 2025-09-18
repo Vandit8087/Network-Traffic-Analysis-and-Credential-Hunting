@@ -211,5 +211,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **🔐 Security Disclosure**: Please report security vulnerabilities through our [Security Policy](SECURITY.md).
 
+## 📧 Contact Information
+
+**Author**: Vandit Naman Shah
+
+**Focus Areas**: Network Security, Quantum Cryptography, CyberSecurity, GRC
+
 ---
 *Built with ❤️ by cybersecurity professionals, for cybersecurity professionals.*
